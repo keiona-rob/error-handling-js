@@ -2,10 +2,10 @@
 
 function divideNumbers(a,b) {
   try {
-    if (b === 0) { // Correct comparison
+    if (b === 0) { 
       console.error("Division by zero is not allowed.");
     } else {
-      const result = a / b; // Declare and assign the result
+      const result = a / b; 
       console.log(result);
     }
   } catch (error) {
